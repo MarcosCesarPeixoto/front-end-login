@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	ignorecase = true
+[remote "Front-End"]
+	url = login
+	fetch = +refs/heads/*:refs/remotes/Front-End/*
+[remote "origin"]
+	url = https://github.com/MarcosCesarPeixoto/login.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
